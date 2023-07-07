@@ -1,0 +1,8 @@
+{
+    "prettier.useEditorConfig": false,
+    "prettier.useTabs": false,
+    "prettier.quoteProps": "consistent",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": false,
+   
+}
