@@ -4,8 +4,9 @@ import ClubModel from "./models/club";
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("Hello String");
+app.get("/", async (req, res) => {
+    const players = await PlayerModel.find().exec();
+    res.status(200).json(players);
 });
 
 export default app;
